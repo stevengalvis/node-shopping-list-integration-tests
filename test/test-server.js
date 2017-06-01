@@ -1,7 +1,10 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 
+
 const {app, runServer, closeServer} = require('../server');
+console.log(app);
+console.log(runServer);
 
 // this lets us use *should* style syntax in our tests
 // so we can do things like `(1 + 1).should.equal(2);`
