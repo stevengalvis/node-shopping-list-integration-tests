@@ -1,2 +1,9 @@
 language: node_js
-node_js: node
+node_js: nodey
+deploy:
+  provider: heroku
+  api_key:
+    secure: SOZREn/nKuE5cvJshC5AyxCOBJJnc37pfXr7g5yRgrRhkhyikWGksJV0pXo6tgI2QSEcY+8cZISBHSHJ0+uGzTbLZSUpWYrIY+cEgxxdsMtwYZ3/LODdl3Wl7/ZztroEXrBtBoY5r/bTeAJdV/VlYzIpdn5P6c1O4zZFdqJEQtruwYhYRtdcMpuADrOqZnOKepHaqOEl3zr7ICZFugvRlV/4xsPuWywdVrz37YtDVhJd61vFH6cE3KIS5qsVT886dCbUcyGQNVd4p49Ytr6a/PkSMG8nva4DkfwCQ2nmYyBLZQxuI42jXzeCjGYprj0pfgksKtmJtlPkDhvHczGKiTA1MdJNLg2+M5lZDh1uasTF3VECGHVYN+m3sZo0cHe/MwSpIIHfz9cksCGXnoZh6g4VLfQTLjh69ThJN65faCBwnwbS09Ohjl2MJ3fM/T4TT69wISR5EGcRAqz57CTY2uNGQKIrwAJZsb34HhfB7o2gG6vt2WqUMszaerhRwgaat8GesR1ByqM9xeD32YsfAnNTV6uIvwtcOVa7CWfS+rGfcpgufVn+Eg/OV/J9lUwEubifGiv94f4vHIo2vP1NmOJdD23QQW+PV2xPb3HA5kZvHBQRoA88QrwUCrLFAHPzkEU3pKMqrwjaYvVV5y65nzw4PPFZfH1g75sYU4ucrCo=
+  app: desolate-scrubland-94630
+  on:
+    repo: stevengalvis/node-shopping-list-integration-tests
